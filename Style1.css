@@ -1,0 +1,149 @@
+
+html{
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 2 rem;
+    
+    
+
+}
+
+h1 {
+    font-size: 2.8 rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skill {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+.habilidadesprogramacion{
+   
+    margin-left: 7rem;
+    
+}
+.idiomas{
+    margin-top: 3rem;
+}
+/* Pie de Página */
+.card text-center{
+    background-color: #333;
+    
+}
+a{
+    width: 14rem;
+    height: 3rem;
+}
+
+li{
+    font-size: 1.5rem;
+}
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+    background-color: #333;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid black;
+    height: 0;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img{ 
+    
+    max-width: 16rem;
+    height: 13rem;
+    float: left;
+    margin-left: 6rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+    
+.btn btn-primary {
+    display: inline-flex
+}
+
+.MasInfo{
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+.Habilidadesdiv{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+
+}
+.habilidadesheramientas{
+    margin-left: 3rem;
+}
+.Otros{
+    display: flex;
+    justify-content: center;
+}

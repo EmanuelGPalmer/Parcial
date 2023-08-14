@@ -1,0 +1,67 @@
+html{
+  font-size: rem 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+hr{
+    border: none;
+    border-top: 2px solid black;
+    height: 0;
+}
+.principal{
+    text-align: center;
+}
+
+.card{
+    margin: auto;
+}
+form {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 30rem;
+}
+
+label {
+  display: inline-flex;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+input[type="text"],
+textarea,
+input[list] {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  display: block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
